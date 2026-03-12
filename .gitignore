@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/NeetCode150/.vs
+/NeetCode150/NeetCode150/bin/Debug/net10.0
+/NeetCode150/NeetCode150/obj
