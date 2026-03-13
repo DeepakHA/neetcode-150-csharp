@@ -1,7 +1,7 @@
 ﻿using NeetCode150.ArraysAndHashing;
 
 
-#region 001 Contains Duplicate
+#region Contains Duplicate
 /* Executes the ContainsDuplicate code
  
 int[] nums = { 1, 2, 3, 1 };
@@ -12,18 +12,19 @@ Console.WriteLine(result);
 */
 #endregion
 
+#region Valid Anagram
+//string s = "Silent";
+//string t = "Listen";
 
-string s = "Silent";
-string t = "Listen";
+///* Handle space here in this edge case
+//s = "Eleven plus two";
+//t = "Twelve plus one"; 
+//*/
 
-/* Handle space here in this edge case
-s = "Eleven plus two";
-t = "Twelve plus one"; 
-*/
+//bool isAnagram = ValidAnagram.IsAnagram(s, t);
 
-bool isAnagram = ValidAnagram.IsAnagram(s, t);
-
-if(isAnagram)
-    Console.WriteLine($"Yes.The two strings {s} and {t} are Anagrams.");
-else
-    Console.WriteLine($"No.The two strings {s} and {t} are not Anagrams.");
+//if(isAnagram)
+//    Console.WriteLine($"Yes. The two strings {s} and {t} are Anagrams.");
+//else
+//    Console.WriteLine($"No. The two strings {s} and {t} are not Anagrams.");
+#endregion
