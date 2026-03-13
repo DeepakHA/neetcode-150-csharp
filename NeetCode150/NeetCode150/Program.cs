@@ -1,4 +1,7 @@
 ﻿using NeetCode150.ArraysAndHashing;
+using System.Net.Http.Json;
+using System.Text.Json.Nodes;
+using System.Text.Json.Serialization;
 
 
 #region Contains Duplicate
@@ -27,4 +30,13 @@ Console.WriteLine(result);
 //    Console.WriteLine($"Yes. The two strings {s} and {t} are Anagrams.");
 //else
 //    Console.WriteLine($"No. The two strings {s} and {t} are not Anagrams.");
+#endregion
+
+#region PlusOne
+//int[] inputArray = [9, 9, 9, 9];
+//int[] output = PlusOne.AddOne(inputArray);
+//foreach (var item in output)
+//{
+//    Console.WriteLine(item);
+//}
 #endregion
