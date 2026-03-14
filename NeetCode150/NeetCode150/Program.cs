@@ -1,7 +1,4 @@
 ﻿using NeetCode150.ArraysAndHashing;
-using System.Net.Http.Json;
-using System.Text.Json.Nodes;
-using System.Text.Json.Serialization;
 
 
 #region Contains Duplicate
@@ -39,4 +36,14 @@ Console.WriteLine(result);
 //{
 //    Console.WriteLine(item);
 //}
+#endregion
+
+#region HappyNumber
+List<int> nums = [100];
+nums.ForEach(n =>
+{
+    bool isHappyNumber = HappyNumber.IsHappyNumber(n);
+    Console.WriteLine($"Is {n} a happy number (non-cyclical) - {isHappyNumber}");
+});
+
 #endregion
