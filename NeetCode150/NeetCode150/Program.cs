@@ -1,4 +1,4 @@
-﻿using NeetCode150.ArraysAndHashing;
+﻿using NeetCode150.BitManipulation;
 
 
 #region Contains Duplicate
@@ -39,11 +39,19 @@ Console.WriteLine(result);
 #endregion
 
 #region HappyNumber
-List<int> nums = [100];
-nums.ForEach(n =>
-{
-    bool isHappyNumber = HappyNumber.IsHappyNumber(n);
-    Console.WriteLine($"Is {n} a happy number (non-cyclical) - {isHappyNumber}");
-});
+//List<int> nums = [100];
+//nums.ForEach(n =>
+//{
+//    bool isHappyNumber = HappyNumber.IsHappyNumber(n);
+//    Console.WriteLine($"Is {n} a happy number (non-cyclical) - {isHappyNumber}");
+//});
+
+#endregion
+
+#region SingleNumber
+
+int[] nums = [7, 6, 6, 7, 8];
+int output = SingleNumber.NonDuplicateNumber(nums);
+Console.WriteLine($"A non duplicate number in a given array is {output}.");
 
 #endregion
