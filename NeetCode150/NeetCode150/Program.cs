@@ -50,8 +50,21 @@ Console.WriteLine(result);
 
 #region SingleNumber
 
-int[] nums = [7, 6, 6, 7, 8];
-int output = SingleNumber.NonDuplicateNumber(nums);
-Console.WriteLine($"A non duplicate number in a given array is {output}.");
+//int[] nums = [7, 6, 6, 7, 8];
+//int output = SingleNumber.NonDuplicateNumber(nums);
+//Console.WriteLine($"A non duplicate number in a given array is {output}.");
 
+#endregion
+
+#region MissingNumber
+
+//int[] nums = [0, 1, 2];
+//int output = MissingNumber.GetMissingNumber(nums);
+//Console.WriteLine($"A missing number in a given array is {output}.");
+
+#endregion
+
+#region Number of 1 bits
+int sum = NumberOfBits.HammingWeight(3);
+Console.WriteLine($"The sum of {a} and {b} is '{sum}'");
 #endregion
